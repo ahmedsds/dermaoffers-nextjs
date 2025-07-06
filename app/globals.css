@@ -1,0 +1,22 @@
+/* globals.css */
+
+/* Cairo font من Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+:root {
+  --font-cairo: 'Cairo', sans-serif;
+}
+
+body {
+  font-family: var(--font-cairo);
+  direction: rtl;
+  text-align: right;
+}
+
+/* Dark mode support (اختياري) */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #f3f3f3;
+    background-color: #111111;
+  }
+}
